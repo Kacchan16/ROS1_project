@@ -1,0 +1,2 @@
+ros_topics_services
+-DCATKIN_DEVEL_PREFIX=/home/deku/ross_ws/devel -DCMAKE_INSTALL_PREFIX=/home/deku/ross_ws/install -G Unix Makefiles

@@ -1,0 +1,6 @@
+#input 
+int32 height
+int32 length
+---
+#output
+int32 area

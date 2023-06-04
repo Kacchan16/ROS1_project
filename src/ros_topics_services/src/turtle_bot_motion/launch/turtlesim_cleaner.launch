@@ -1,0 +1,6 @@
+<launch>
+
+
+<include file ="$(ros_topics_services)/src/turtle_bot_motion/launch/turtlesim_teleop.launch" />
+<node name = "turtle_cleaner_node" pkg = "ros_topics_service" type = "turtlesim_cleaner.py" output= "screen" />
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/deku/ross_ws/devel
+
+Name: ros_topics_services
+Description: Description of ros_topics_services
+Version: 0.0.0
+Cflags: -I/home/deku/ross_ws/devel/include -I/home/deku/ross_ws/src/ros_topics_services/include
+Libs: -L${prefix}/lib -lros_topics_services
+Requires: roscpp rospy std_msgs message_runtime
