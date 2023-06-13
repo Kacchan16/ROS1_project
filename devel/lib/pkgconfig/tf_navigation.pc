@@ -1,0 +1,8 @@
+prefix=/home/deku/ross_ws/devel
+
+Name: tf_navigation
+Description: Description of tf_navigation
+Version: 0.0.0
+Cflags: -I/home/deku/ross_ws/src/tf_navigation/include
+Libs: -L${prefix}/lib -ltf_navigation
+Requires: roscpp rospy std_msgs
